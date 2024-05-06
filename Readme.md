@@ -1,1 +1,1 @@
-Untuk menyimpan file ipnyb dari google collab
+File ipnyb dari google colab

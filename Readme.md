@@ -1,1 +1,1 @@
-Repository untuk menyimpang file pembelajaran dan projects data analyst.
+Repository untuk menyimpan file pembelajaran dan projects data analyst.

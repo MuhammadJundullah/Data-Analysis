@@ -1,1 +1,1 @@
-Repository untuk menyimpang projects data analyst dan file ipynb dari google colab
+Repository untuk menyimpang file pembelajaran dan projects data analyst.

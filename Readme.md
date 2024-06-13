@@ -1,1 +1,1 @@
-Repository untuk menyimpan file pembelajaran dan projects data analyst.
+Data Analysis Notebooks.

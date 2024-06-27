@@ -1,46 +1,56 @@
 # Data Analysis Notebooks
 
-Welcome to the Data Analysis Notebooks repository! This repository contains a collection of Jupyter notebooks that demonstrate various data analysis techniques, including data cleaning, visualization, statistical analysis, machine learning, and more. Each notebook is self-contained and designed to be easily understood and reusable.
+Selamat datang di repositori **Data Analysis Notebooks**! Repositori ini berisi berbagai proyek analisis data yang telah saya kerjakan menggunakan bahasa pemrograman Python dan alat-alat analisis data lainnya. Setiap proyek dalam repositori ini dikembangkan untuk mengeksplorasi dan menganalisis data dari berbagai domain untuk mendapatkan wawasan yang berharga.
 
-## Table of Contents
+## Daftar Proyek
 
-- [Introduction](#introduction)
-- [Notebooks](#notebooks)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Berikut adalah daftar proyek yang ada dalam repositori ini:
 
-## Introduction
+1. **Airline Delay Cause Analytics**
+   - Analisis penyebab keterlambatan penerbangan menggunakan data penerbangan historis.
+   
+2. **Car Fuel Consumption Analytics**
+   - Analisis konsumsi bahan bakar mobil berdasarkan berbagai faktor seperti jenis kendaraan dan kondisi jalan.
+   
+3. **Car Sales Analysis**
+   - Analisis penjualan mobil untuk mengidentifikasi tren dan pola dalam data penjualan mobil.
+   
+4. **Car Details Analysis**
+   - Analisis detail spesifikasi mobil dan hubungannya dengan performa kendaraan.
+   
+5. **E-Commerce Customer Analysis**
+   - Analisis data pelanggan e-commerce untuk memahami perilaku dan preferensi pelanggan.
+   
+6. **Indonesian Market Car Analysis**
+   - Analisis pasar mobil di Indonesia untuk mengidentifikasi preferensi dan tren pasar.
+   
+7. **MSIB Vacancy Analysis**
+   - Analisis lowongan pekerjaan MSIB menggunakan Google Colab untuk mengidentifikasi peluang dan permintaan kerja.
+   
+8. **Marketing Analysis Halotech**
+   - Analisis data pemasaran Halotech untuk mengevaluasi efektivitas strategi pemasaran yang diterapkan.
 
-The purpose of this repository is to provide practical examples of data analysis using Python and popular libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, and others. Whether you are a beginner looking to learn data analysis or an experienced data scientist looking for reusable code snippets, you'll find something useful here.
+## Bahasa Pemrograman dan Alat
 
-## Notebooks
+- **Python**: Digunakan sebagai bahasa utama untuk analisis data.
+- **Jupyter Notebook**: Digunakan untuk penulisan dan eksekusi kode analisis data.
+- **Libraries**: Menggunakan berbagai pustaka Python seperti Pandas, NumPy, Matplotlib, Seaborn, dan lainnya untuk analisis dan visualisasi data.
 
-Here is a list of the available notebooks:
+## Cara Menggunakan
 
-1. **Data Cleaning and Preprocessing**
-   - [Data Cleaning Example.ipynb](notebooks/Data%20Cleaning%20Example.ipynb): Techniques for handling missing data, outliers, and data transformation.
+1. Clone repositori ini ke komputer Anda:
+   git clone https://github.com/MuhammadJundullah/Data-Analysis.git
 
-2. **Exploratory Data Analysis (EDA)**
-   - [EDA on Titanic Dataset.ipynb](notebooks/EDA%20on%20Titanic%20Dataset.ipynb): Detailed exploratory data analysis on the Titanic dataset.
+2. Masuk ke direktori proyek:
+   cd Data-Analysis
 
-3. **Data Visualization**
-   - [Data Visualization with Matplotlib.ipynb](notebooks/Data%20Visualization%20with%20Matplotlib.ipynb): Creating various types of plots using Matplotlib.
-   - [Data Visualization with Seaborn.ipynb](notebooks/Data%20Visualization%20with%20Seaborn.ipynb): Advanced data visualization techniques using Seaborn.
+3. Buka notebook Jupyter untuk memulai analisis data:
+   jupyter notebook
 
-4. **Statistical Analysis**
-   - [Statistical Analysis Basics.ipynb](notebooks/Statistical%20Analysis%20Basics.ipynb): Performing basic statistical tests and interpreting results.
+## Kontribusi
 
-5. **Machine Learning**
-   - [Machine Learning with Scikit-learn.ipynb](notebooks/Machine%20Learning%20with%20Scikit-learn.ipynb): Building and evaluating machine learning models using Scikit-learn.
-   - [Deep Learning with TensorFlow.ipynb](notebooks/Deep%20Learning%20with%20TensorFlow.ipynb): Introduction to deep learning with TensorFlow.
+Kontribusi sangat dihargai! Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan atau penambahan yang Anda buat.
 
-## Installation
+## Lisensi
 
-To run the notebooks locally, you'll need to have Python and Jupyter installed. You can install the necessary dependencies using `pip` and the provided `requirements.txt` file.
-
-```bash
-git clone https://github.com/username/repository-name.git
-cd repository-name
-pip install -r requirements.txt
+Repositori ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.

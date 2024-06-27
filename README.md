@@ -38,19 +38,12 @@ Berikut adalah daftar proyek yang ada dalam repositori ini:
 
 ## Cara Menggunakan
 
-1. Clone repositori ini ke komputer Anda:
+1. Clone repositori:
    git clone https://github.com/MuhammadJundullah/Data-Analysis.git
 
 2. Masuk ke direktori proyek:
    cd Data-Analysis
 
-3. Buka notebook Jupyter untuk memulai analisis data:
+3. Buka notebook Jupyter atau google colab untuk memulai analisis data:
    jupyter notebook
-
-## Kontribusi
-
-Kontribusi sangat dihargai! Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan atau penambahan yang Anda buat.
-
-## Lisensi
-
-Repositori ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.
+   <a href="https://colab.research.google.com" target="_blank">Google Colab</a>

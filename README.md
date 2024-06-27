@@ -28,7 +28,7 @@ Berikut adalah daftar proyek yang ada dalam repositori ini:
    - Analisis lowongan pekerjaan MSIB menggunakan Google Colab untuk mengidentifikasi peluang dan permintaan kerja.
    
 8. **Marketing Analysis Halotech**
-   - Analisis data pemasaran Halotech untuk mengevaluasi efektivitas strategi pemasaran yang diterapkan.
+   - Analisis data pemasaran untuk mengevaluasi efektivitas strategi pemasaran yang diterapkan.
 
 ## Bahasa Pemrograman dan Alat
 
@@ -45,5 +45,5 @@ Berikut adalah daftar proyek yang ada dalam repositori ini:
    cd Data-Analysis
 
 3. Buka notebook Jupyter atau google colab untuk memulai analisis data:
-   jupyter notebook
-   <a href="https://colab.research.google.com" target="_blank">Google Colab</a>
+   - jupyter notebook
+   - <a href="https://colab.research.google.com" target="_blank">Google Colab</a>

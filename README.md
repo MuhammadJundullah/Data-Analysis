@@ -1,6 +1,6 @@
 # Data Analysis Notebooks
 
-Welcome to the **Data Analysis Notebooks** repository! This repository contains various data analysis projects that I have worked on using various data analysis tools. Each project in this repository was developed to explore and analyze data from multiple trusted sources to gain valuable insights.
+This repository contains various data analysis projects that I have worked on using various data analysis tools. Each project in this repository was developed to explore and analyze data from multiple trusted sources to gain valuable insights.
 
 ## Projects
 

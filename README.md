@@ -1,37 +1,20 @@
 # Data Analysis Notebooks
 
-Selamat datang di repositori **Data Analysis Notebooks**! Repositori ini berisi berbagai proyek analisis data yang telah saya kerjakan menggunakan bahasa pemrograman Python dan alat-alat analisis data lainnya. Setiap proyek dalam repositori ini dikembangkan untuk mengeksplorasi dan menganalisis data dari berbagai domain untuk mendapatkan wawasan yang berharga.
+Welcome to the **Data Analysis Notebooks** repository! This repository contains various data analysis projects that I have worked on using various data analysis tools. Each project in this repository was developed to explore and analyze data from multiple trusted sources to gain valuable insights.
 
 ## Daftar Proyek
 
-Berikut adalah daftar proyek yang ada dalam repositori ini:
-
 1. **Airline Delay Cause Analytics**
-   - Analisis penyebab keterlambatan penerbangan menggunakan data penerbangan historis.
-   
-2. **Car Fuel Consumption Analytics**
-   - Analisis konsumsi bahan bakar mobil berdasarkan berbagai faktor seperti jenis kendaraan dan kondisi jalan.
-   
-3. **Car Sales Analysis**
-   - Analisis penjualan mobil untuk mengidentifikasi tren dan pola dalam data penjualan mobil.
-   
-4. **Car Details Analysis**
-   - Analisis detail spesifikasi mobil dan hubungannya dengan performa kendaraan.
-   
-5. **E-Commerce Customer Analysis**
-   - Analisis data pelanggan e-commerce untuk memahami perilaku dan preferensi pelanggan.
-   
-6. **Indonesian Market Car Analysis**
-   - Analisis pasar mobil di Indonesia untuk mengidentifikasi preferensi dan tren pasar.
-   
-7. **MSIB Vacancy Analysis**
-   - Analisis lowongan pekerjaan MSIB menggunakan Google Colab untuk mengidentifikasi peluang dan permintaan kerja.
-   
+2. **Car Fuel Consumption Analytics** 
+3. **Car Sales Analysis** 
+4. **Car Details Analysis**   
+5. **E-Commerce Customer Analysis**  
+6. **Indonesian Market Car Analysis**  
+7. **MSIB Vacancy Analysis**  
 8. **Marketing Analysis Halotech**
-   - Analisis data pemasaran untuk mengevaluasi efektivitas strategi pemasaran yang diterapkan.
-
+   
 ## Tools
 
-- **Python**: Digunakan sebagai bahasa utama untuk analisis data.
-- **Jupyter Notebook**: Digunakan untuk penulisan dan eksekusi kode analisis data.
-- **Libraries**: Menggunakan berbagai pustaka Python seperti Pandas, NumPy, Matplotlib, Seaborn, dan lainnya untuk analisis dan visualisasi data.
+- **Python**: Used as the main language for data analysis.
+- **Google Collaboration**: Used for writing and executing data analysis code.
+- **Libraries**: Uses various Python libraries such as Pandas, NumPy, Matplotlib, Seaborn and others for data analysis and visualization.

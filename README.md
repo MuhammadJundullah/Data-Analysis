@@ -17,4 +17,5 @@ This repository contains various data analysis projects that I have worked on us
 
 - **Python**: Used as the main language for data analysis.
 - **Google Collaboration**: Used for writing and executing data analysis code.
-- **Libraries**: Uses various Python libraries such as Pandas, NumPy, Matplotlib, Seaborn and others for data analysis and visualization.
+- **Libraries**: Uses various Python libraries such as Pandas, NumPy, Matplotlib and Seaborn.
+- **Visualization**: Tableau.

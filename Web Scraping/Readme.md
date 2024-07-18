@@ -1,7 +1,3 @@
-Berikut adalah deskripsi yang bisa kamu gunakan untuk GitHub repository proyek web scraping tersebut:
-
----
-
 ## Web Scraping Internship Positions from Kampus Merdeka
 
 This project is a web scraping script designed to extract internship positions from the **Kampus Merdeka** website. The script uses **Playwright** and **BeautifulSoup** to navigate the dynamically loaded content and collect relevant data. The data is then saved into an **Excel** file for further analysis and use.

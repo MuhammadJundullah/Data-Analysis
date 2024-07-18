@@ -1,80 +1,126 @@
-# Internship Position Scraper
+Berikut adalah deskripsi yang bisa kamu gunakan untuk GitHub repository proyek web scraping tersebut:
 
-This project is a web scraping tool designed to extract internship positions from the [Kampus Merdeka](https://kampusmerdeka.kemdikbud.go.id/program/magang/browse/) website. The script uses Playwright and BeautifulSoup to load dynamic content and scrape the desired data, which is then saved to an Excel file.
+---
 
-## Features
+## Web Scraping Internship Positions from Kampus Merdeka
 
-- Loads dynamic content by scrolling the page.
-- Scrapes internship positions and saves them to an Excel file.
-- Uses Playwright for browser automation.
-- Parses HTML content with BeautifulSoup.
-- Saves data to Excel using pandas.
+This project is a web scraping script designed to extract internship positions from the **Kampus Merdeka** website. The script uses **Playwright** and **BeautifulSoup** to navigate the dynamically loaded content and collect relevant data. The data is then saved into an **Excel** file for further analysis and use.
 
-## Requirements
+### Features
 
-- Python 3.7+
-- Playwright
-- BeautifulSoup4
-- pandas
-- openpyxl
+- **Dynamic Content Handling**: The script scrolls through the page to load all dynamic content.
+- **Data Extraction**: Extracts positions, mitra (partners), locations, and duration of internships.
+- **Data Storage**: Saves the extracted data into an Excel file for easy access and manipulation.
 
-## Installation
+### Requirements
 
-1. Clone the repository:
+- Python 3.7 or higher
+- **Playwright**: For navigating the website and handling dynamic content.
+- **BeautifulSoup**: For parsing HTML content.
+- **Pandas**: For data manipulation and saving to Excel.
+- **openpyxl**: For writing the Excel file.
 
-    ```sh
-    git clone https://github.com/yourusername/internship-scraper.git
-    cd internship-scraper
+### Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/internship-scraping.git
+    cd internship-scraping
     ```
 
-2. Create and activate a virtual environment:
-
-    ```sh
+2. **Create a virtual environment** (optional but recommended):
+    ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required packages:
-
-    ```sh
+3. **Install the required packages**:
+    ```bash
     pip install -r requirements.txt
     ```
 
-4. Install Playwright browsers:
-
-    ```sh
+4. **Install Playwright browsers**:
+    ```bash
     playwright install
     ```
 
-## Usage
+### Usage
 
-1. Run the scraping script:
+Run the script to scrape internship positions and save them to an Excel file:
+```bash
+python scraping.py
+```
 
-    ```sh
-    python scraping.py
+### Script Details
+
+The script performs the following steps:
+
+1. **Initialize Playwright**:
+    ```python
+    from playwright.sync_api import sync_playwright
     ```
 
-2. The script will navigate to the Kampus Merdeka website, load the dynamic content by scrolling, and extract the internship positions. The results will be saved to an Excel file named `intern_positions.xlsx`.
+2. **Navigate to the website**:
+    ```python
+    browser = playwright.chromium.launch(headless=False)
+    page = browser.new_page()
+    page.goto("https://kampusmerdeka.kemdikbud.go.id/program/magang/browse/")
+    ```
 
-## Example Output
+3. **Scroll through the page to load dynamic content**:
+    ```python
+    previous_height = page.evaluate("document.body.scrollHeight")
+    while True:
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        time.sleep(random.uniform(1, 2))
+        new_height = page.evaluate("document.body.scrollHeight")
+        if new_height == previous_height:
+            break
+        previous_height = new_height
+    ```
 
-The output Excel file will have a single column "Position" with the extracted internship positions.
+4. **Extract data using BeautifulSoup**:
+    ```python
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(content, 'html.parser')
+    intern_positions = soup.find_all('p', class_='text-0-0-56 sans-0-0-70 heading-5-0-0-77 pad-0-0-812 ellipsis-0-0-817')
+    intern_mitra = soup.find_all('p', class_='text-0-0-56 sans-0-0-70 tiny-0-0-72 ellipsis-0-0-59 pad-0-0-812')
+    intern_lokasi = soup.find_all('span', class_='text-0-0-56 sans-0-0-70')
+    intern_durasi = soup.find_all('span', class_='text-0-0-56 sans-0-0-70 tiny-0-0-72')
+    ```
 
-## File Structure
+5. **Store data in lists and ensure equal lengths**:
+    ```python
+    allPositions = [position.text.strip() for position in intern_positions]
+    allMitra = [mitra.text.strip() for mitra in intern_mitra]
+    allLokasi = [lokasi.text.strip() for lokasi in intern_lokasi]
+    allDurasi = [durasi.text.strip() for durasi in intern_durasi]
 
-- `scraping.py`: The main script for scraping the internship positions.
-- `requirements.txt`: List of Python packages required to run the script.
-- `README.md`: Documentation for the project.
+    min_length = min(len(allPositions), len(allMitra), len(allLokasi), len(allDurasi))
+    allPositions = allPositions[:min_length]
+    allMitra = allMitra[:min_length]
+    allLokasi = allLokasi[:min_length]
+    allDurasi = allDurasi[:min_length]
+    ```
 
-## Contributing
+6. **Save data to an Excel file**:
+    ```python
+    import pandas as pd
+    df = pd.DataFrame({
+        "Position": allPositions,
+        "Mitra": allMitra,
+        "Lokasi": allLokasi,
+        "Durasi": allDurasi
+    })
+    
+    df.to_excel('/Users/admin/Documents/Data Magang Mandiri.xlsx', index=False)
+    print("Success")
+    ```
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+### License
 
-## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
 
-## Contact
-
-For any questions or suggestions, please open an issue or contact me at [sayidmuhammad15@gmail.com](mailto:sayidmuhammad15@gmail.com).
-
+You can adjust the content as needed and ensure that your repository contains the necessary files like `requirements.txt` and `LICENSE`.

@@ -13,7 +13,6 @@ def run(playwright):
     # Scroll the page to load dynamic content
     previous_height = page.evaluate("document.body.scrollHeight")
     while True:
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         time.sleep(random.uniform(1, 20))  # Wait for the content to load
         new_height = page.evaluate("document.body.scrollHeight")
         if new_height == previous_height:

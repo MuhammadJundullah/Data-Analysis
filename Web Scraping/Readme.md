@@ -1,3 +1,7 @@
+Berikut adalah deskripsi yang bisa kamu gunakan untuk GitHub repository proyek web scraping tersebut:
+
+---
+
 ## Web Scraping Internship Positions from Kampus Merdeka
 
 This project is a web scraping script designed to extract internship positions from the **Kampus Merdeka** website. The script uses **Playwright** and **BeautifulSoup** to navigate the dynamically loaded content and collect relevant data. The data is then saved into an **Excel** file for further analysis and use.
@@ -112,3 +116,11 @@ The script performs the following steps:
     df.to_excel('/Users/admin/Documents/Data Magang Mandiri.xlsx', index=False)
     print("Success")
     ```
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+You can adjust the content as needed and ensure that your repository contains the necessary files like `requirements.txt` and `LICENSE`.

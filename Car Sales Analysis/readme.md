@@ -1,1 +1,1 @@
-<img src="Dashboard/PowerBI_dashboard.png" alt="PowerBI_dashboard" width=200>
+<img src="Dashboard/PowerBI_dashboard.png" alt="PowerBI_dashboard">

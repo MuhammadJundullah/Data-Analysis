@@ -33,8 +33,9 @@ Analisis ini memberikan wawasan yang dapat ditindaklanjuti bagi para pemangku ke
 
 1. **Klon repositori** ini ke komputer lokal Anda.
 2. **Buka notebook Jupyter** yang disediakan.
-3. **Jalankan sel kode** secara berurutan untuk mereplikasi analisis.
-4. **Jelajahi visualisasi dan temuan** untuk mendapatkan wawasan tentang pasar penjualan mobil.
+3. `pip install pandas matplotlib numpy seaborn pmdarima`
+4. **Jalankan sel kode** secara berurutan untuk mereplikasi analisis.
+5. **Jelajahi visualisasi dan temuan** untuk mendapatkan wawasan tentang pasar penjualan mobil.
 
 ## Kontribusi
 

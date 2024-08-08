@@ -1,4 +1,4 @@
-# Data Analysis Notebooks
+# About this repo
 
 Here are some notebooks and dashboards from my analysis projects, developed to address business questions and support decision-making. The data comes from Kaggle and other private sources.
 

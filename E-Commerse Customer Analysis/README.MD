@@ -24,5 +24,5 @@ pip install pandas numpy matplotlib seaborn
 ## Cara Menggunakan
 
 1. **Klon repositori** ini ke komputer lokal Anda.
-2. **Buka notebook Jupyter** `Analisis_Data_Pelanggan.ipynb`.
+2. **Buka notebook Jupyter** `Customers_Analysis.ipynb`.
 3. **Jalankan sel kode** secara berurutan.

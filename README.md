@@ -4,14 +4,9 @@ This repository contains various data analysis projects that I have worked on us
 
 ## Projects
 
-1. **Airline Delay Cause Analytics**
-2. **Car Fuel Consumption Analytics** 
+1. **E-Commerce Customer Analysis**  
+2. **Indonesian Market Car Analysis** 
 3. **Car Sales Analysis** 
-4. **Car Details Analysis**   
-5. **E-Commerce Customer Analysis**  
-6. **Indonesian Market Car Analysis**  
-7. **MSIB Vacancy Analysis**  
-8. **Marketing Analysis Halotech**
    
 ## Tools
 

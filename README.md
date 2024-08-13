@@ -1,20 +1,3 @@
-# About this repo
+# About
 
-Here are some notebooks and dashboards from my analysis projects, developed to address business questions and support decision-making. The data comes from Kaggle and other private sources.
-
-## Projects List
-
-1. **E-Commerce Customer Analysis**  
-2. **Indonesian Market Car Analysis** 
-3. **Car Sales Analysis**
-4. **Airline Delay Cause Analytics**
-5. **Car Details Analysis**
-6. **Car Fuel Consumption Analytics**
-7. **MSIB Vacancy Analysis**
-   
-## Tools
-
-- **Python**: Used as the main language for data analysis.
-- **Google Collaboration**: Used for writing and executing data analysis code.
-- **Libraries**: Uses various Python libraries such as Pandas, NumPy, Matplotlib and Seaborn.
-- **Visualization**: Tableau, Excel, Power BI.
+This repository contains a collection of data analysis notebooks created for my portfolio. The notebooks cover a range of data analysis tasks, including data exploration, visualization, and the application of statistical and machine learning models. Each notebook is accompanied by a step-by-step explanation of the methodology used, analysis results, and data visualizations. The purpose of this repository is to showcase my skills in data analysis and my ability to present findings in a clear and informative manner.

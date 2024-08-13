@@ -1,4 +1,4 @@
-# E-Commerse Customer Analysis
+# E-Commerce Customer Analysis
 
 Repositori ini berisi analisis data pelanggan dari toko fiktif. Tujuan dari analisis ini adalah untuk memahami karakteristik pelanggan ideal dan memberikan wawasan yang dapat ditindaklanjuti untuk meningkatkan strategi bisnis.
 

@@ -2,7 +2,7 @@
 
 Analisis lowongan MSIB Batch 6 untuk memberikan wawasan mengenai distribusi kuota lowongan, khususnya untuk posisi Data Analyst.
 
-##Langkah-langkah analisa :
+## Langkah-langkah analisa :
 
 ### Data Cleaning :
 Memuat dan membersihkan data, termasuk menghapus baris dan kolom yang tidak perlu.

@@ -13,8 +13,8 @@ Mitra dengan kuota terbanyak untuk posisi Data Analyst.
 Lokasi dengan kuota terbanyak.
 Proporsi lowongan Data Analyst dibandingkan dengan lowongan lainnya.
 
-Temuan Utama:
-BTPN Syariah adalah mitra dengan kuota terbanyak.
-Bagian Organisasi Skretariat Daerah Kota Surabaya paling banyak membutuhkan Data Analyst.
-Jakarta Selatan merupakan lokasi dengan banyak lowongan Data Analyst.
-4.3% dari semua lowongan adalah untuk posisi Data Analyst.
+Hasil Analisa:
+- BTPN Syariah adalah mitra dengan kuota terbanyak.
+- Bagian Organisasi Skretariat Daerah Kota Surabaya paling banyak membutuhkan Data Analyst.
+- Jakarta Selatan merupakan lokasi dengan banyak lowongan Data Analyst.
+- 4.3% dari semua lowongan adalah untuk posisi Data Analyst.

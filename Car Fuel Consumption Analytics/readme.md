@@ -1,22 +1,21 @@
 # Car Fuel Consumption Analysis
 
-Repositori ini berisi analisis mengenai penggunaan bahan bakar kendaraan, yang mencakup berbagai aspek seperti besar mesing (CC), jumlah silinder, jenis mobil, dan lainnya.
+Analisis ini bertujuan untuk memahami faktor-faktor yang memengaruhi konsumsi bahan bakar kendaraan. Data yang digunakan meliputi berbagai jenis kendaraan dengan atribut seperti merek, model, kelas, ukuran mesin, jenis transmisi, dan jenis bahan bakar.
 
 ## Tujuan Analisis
 
-- **Analisis Pasar**: Memahami tren penjualan secara keseluruhan dan variasi regional, termasuk kinerja produsen, preferensi model, dan wawasan demografis.
-- **Pola Musiman**: Mengidentifikasi pola dan siklus musiman dalam penjualan untuk mengoptimalkan strategi pemasaran dan manajemen inventaris.
-- **Analisis Prediktif**: Memanfaatkan data historis untuk memperkirakan tren pasar di masa depan dan mendukung pengambilan keputusan terkait pemasaran, periklanan, dan investasi.
-- **Wawasan Industri**: Memberikan informasi berharga bagi para pemangku kepentingan di industri otomotif untuk meningkatkan operasi dan strategi mereka.
+- Mengidentifikasi faktor-faktor yang berkorelasi dengan konsumsi bahan bakar.
+- Menemukan pola konsumsi bahan bakar berdasarkan jenis kendaraan, transmisi, dan ukuran mesin.
+- Memberikan rekomendasi untuk mengurangi konsumsi bahan bakar.
 
 ## Metodologi
 
 Proses dalam analisa ini meliputi :
 
-- **Pembersihan Data**: Menangani nilai yang hilang, data duplikat, dan outlier.
-- **Analisis Eksplorasi Data (EDA)**: Visualisasi dan analisis statistik untuk mengungkap pola dan tren.
-- **Pengujian Statistik**: Pengujian hipotesis untuk memvalidasi hubungan antara variabel.
-- **Pemodelan Prediktif**: Penggunaan model ARIMA untuk memperkirakan penjualan di masa depan.
+- **Eksplorasi Data**: Memahami karakteristik data dengan statistik deskriptif, histogram, dan boxplot.
+- **Analisis Korelasi**: Mengidentifikasi hubungan antar variabel menggunakan heatmap.
+- **Visualisasi Data**: Menggunakan scatter plot, boxplot, dan bar chart untuk memvisualisasikan pola dan tren.
+- **Analisis Komparatif**: Membandingkan konsumsi bahan bakar antar kelompok berdasarkan jenis kendaraan, transmisi, dan lainnya.
 
 ## Kesimpulan dan Rekomendasi
 

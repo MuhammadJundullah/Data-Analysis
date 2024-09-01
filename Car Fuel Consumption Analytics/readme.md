@@ -19,4 +19,6 @@ Proses dalam analisa ini meliputi :
 
 ## Kesimpulan dan Rekomendasi
 
-Analisis ini memberikan wawasan yang dapat ditindaklanjuti bagi para pemangku kepentingan di industri otomotif, termasuk produsen, dealer, dan pemasar. Rekomendasi meliputi penyesuaian stok berdasarkan preferensi regional, penargetan strategi pemasaran berdasarkan demografi pelanggan, dan optimalisasi operasi berdasarkan pola musiman.
+Kesimpulan dari analisis ini menunjukkan bahwa terdapat beberapa faktor yang berkorelasi dengan konsumsi bahan bakar, antara lain ukuran mesin, jenis transmisi, kelas kendaraan, dan jumlah silinder. Kendaraan dengan mesin yang lebih besar cenderung mengonsumsi bahan bakar lebih banyak, begitu pula dengan kendaraan yang memiliki jumlah silinder lebih banyak. Jenis transmisi dan kelas kendaraan juga mempengaruhi konsumsi bahan bakar.
+
+Berdasarkan hasil analisis, direkomendasikan untuk memilih kendaraan dengan ukuran mesin yang sesuai kebutuhan dan mempertimbangkan jenis transmisi yang lebih efisien. Memilih kendaraan dengan jumlah silinder yang lebih sedikit juga dapat membantu mengurangi konsumsi bahan bakar. Selain itu, pengembangan teknologi kendaraan yang lebih hemat bahan bakar sangat penting untuk mengurangi dampak lingkungan dan konsumsi bahan bakar secara keseluruhan.

@@ -38,6 +38,7 @@ def predict():
             data['Ten_9'],
             data['Ten_10']
         ]
+        
         prediction = model.predict([features])  # Prediksi
         return jsonify({'prediction': prediction.tolist()})  # Return hasil prediksi
     except KeyError as e:
